@@ -141,8 +141,8 @@
     font-family: "Roboto", system-ui;
     font-weight: 400;
 }
-.form-input{
-    width: 450px;
+.contact-input{
+    width: 420px;
 }
 
 .sub-btn{
@@ -170,9 +170,21 @@
 
 @media (max-width:768px) {
     .main-titles h1 {
-        font-size: 4rem;
+        font-size: 3.2rem;
     }
     .main-titles p{
         font-size: 2rem;
+    }
+}
+
+@media (max-width:425px) {
+    .main-titles h1 {
+        font-size: 2.5rem;
+    }
+    .main-titles p{
+        font-size: 1.4rem;
+    }
+    .contact-input{
+        width: 95%;
     }
 }

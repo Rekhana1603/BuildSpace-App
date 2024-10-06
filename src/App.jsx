@@ -28,7 +28,7 @@ function App() {
       <section id='home'>
         <div className='home-img container-fluid p-0  position-relative d-flex justify-content-center align-items-center'>
           <img className='img-fluid' src="./images/bg-img.jpg" alt="" />
-          <div className="main-titles d-flex flex-column justify-content-center align-items-center">
+          <div className="main-titles d-flex flex-wrap flex-column justify-content-center align-items-center">
             <h1>WE BUILD THE FUTURE</h1>
             <p>Best Ideas - Best Solution - Best Result</p>
             <button className='main-btn btn btn rounded-0 mt-5'>VIEW MORE</button>
