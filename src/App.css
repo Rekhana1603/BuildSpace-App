@@ -170,20 +170,14 @@
 
 @media (max-width:768px) {
     .main-titles h1 {
-        font-size: 3.2rem;
+        font-size: 3.5rem;
     }
     .main-titles p{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 
 @media (max-width:425px) {
-    .main-titles h1 {
-        font-size: 2.5rem;
-    }
-    .main-titles p{
-        font-size: 1.4rem;
-    }
     .contact-input{
         width: 95%;
     }
